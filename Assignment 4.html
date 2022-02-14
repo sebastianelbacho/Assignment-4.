@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <titl> Project 1, Assignment 4.</title>
+        <title> Project 1, Assignment 4.</title>
             <meta chareset="utf-8">
+            <link rel="stylesheet" href="./css/css.css">
+            <link rel="stylesheet" href="./animations/animations.css/">
+            
+              
     </head>
     <body>
+      
 
         <!--Nav-->
-        <div>
-          <div>
+        <div class="wrap">
+          <div class="menu-container">
             <ul>
                 <a href="#home" id="link"><li>Home</li></a>
-                <a href="#gallery"><li>Gallery</li></a>               
+                <a href="#gallery"><li>Gallery</li></a>   
+                <a href="#History"><li>History</li></a>   <!--Nie jestem jeszcze pewny!-->           
                 <a href="#Reservations"><li>Reservations</li></a>
             </ul>
           </div>
@@ -20,26 +26,27 @@
         
         <!--HOME-->
         <div id="home">
-          <div>
-            <div>
-              <span>Radiostacja Mir Band</span>
+          <div class="container">
+            <div class="text-center">
+              <span class="head-main">Radiostacja Mir</span>
             </div>
           </div>
         </div>
         <!--END HOME-->
 
         <!--GALLERY-->
-        <section>
-          <div id="Gallery">
+        <section id="gallery">
+          <div class="container">
             <h1>Gallery</h1>
-            <div>
+            <div class="flex-container">
+              
 
               <!--PHOTO CONTAINER 1-->
-              <div>
-                <div>
-                  <img src="img/radio1.jpg" weight="200" height="250" alt="">
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio1.jpg" weight="200" height="250" alt="Krolik" title="Krolik">
                   
-                  <div>
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -48,10 +55,11 @@
               <!--END PHOTO-CONTAINER 1-->
 
               <!--PHOTO CONTAINER 2-->
-              <div>
-                <div>
-                  <img src="img/radio2.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio2.jpg" weight="200" height="250" alt="Krolik" title="Kratasz">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -60,10 +68,11 @@
               <!--END PHOTO-CONTAINER 2-->
 
               <!--PHOTO CONTAINER 3-->
-              <div>
-                <div>
-                  <img src="img/radio3.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio3.jpg" weight="200" height="250" alt="Krolik" title="The Band">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -72,10 +81,11 @@
               <!--END PHOTO-CONTAINER 3-->
 
               <!--PHOTO CONTAINER 4-->
-              <div>
-                <div>
-                  <img src="img/radio4.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio4.jpg" weight="200" height="250" alt="Krolik" title="Joanna">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -84,10 +94,11 @@
               <!--END PHOTO-CONTAINER 4-->
 
               <!--PHOTO CONTAINER 5-->
-              <div>
-                <div>
-                  <img src="img/radio5.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio5.jpg" weight="200" height="250" alt="Krolik" title="The Band">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -96,10 +107,11 @@
               <!--END PHOTO-CONTAINER 5-->
 
               <!--PHOTO CONTAINER 6-->
-              <div>
-                <div>
-                  <img src="img/radio6.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio6.jpg" weight="200" height="250" alt="Krolik" title="The Band">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -108,10 +120,11 @@
               <!--END PHOTO-CONTAINER 6-->
 
               <!--PHOTO CONTAINER 7-->
-              <div>
-                <div>
-                  <img src="img/radio7.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio7.jpg" weight="200" height="250" alt="Krolik" title="Jacek">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -120,10 +133,11 @@
               <!--END PHOTO-CONTAINER 7-->
 
               <!--PHOTO CONTAINER 8-->
-              <div>
-                <div>
-                  <img src="img/radio8.jpg" weight="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio8.jpg" weight="200" height="250" alt="Krolik" title="Kratasz">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -132,10 +146,11 @@
               <!--END PHOTO-CONTAINER 8-->
 
               <!--PHOTO CONTAINER 9-->
-              <div>
-                <div>
-                  <img src="img/radio9.jpg" weigght="200" height="250" alt="">
-                  <div>
+              <div class="photo-container">
+                <div class="photo">
+                  <img src="img/radio9.jpg" weight="200" height="250" alt="Krolik" title="The Band">
+                  
+                  <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>The site is intended to introduce a bit of the band!</p>
                   </div>
@@ -143,47 +158,51 @@
               </div>
               <!--END PHOTO-CONTAINER 9-->
 
-
-
-              </div>
+              
+               </div>
             </div>
         </section>
         <!--END GALLERY-->
 
         <!--RSVP-->
-        <section>
-           <div id="contact">
-              <div>
-                <h1>Reservations</h1>
-                <div>
+        <section id="contact">
+           <div class="contact">
+              <div class="heading-padding">
+                <h1 class="heading-padding">Reservations</h1>
+                <div class="reservation">
                   <h2><span>Your show is arround your town.</span>
-                      <br />Reserve Your show  ticket!
+                      <br/>Reserve Your show  ticket!
                   </h2>
-                  <p>
+                  <p class="rsvp-text">
                     Please provide us with your basic contact information.
                     </p>
-                    <div>
-                      <from action="" method="post">
-                        <input class="rsvp" type="text" value="First Name">
-                        <input class="rsvp" type="text" value="Last Name">
-                        <input class="rsvp" type="text" value="Email Adress">
-                        <input class="rsvp" type="text" value="Phone Number">
-                               <label class="terms">Terms and Conditions</label>
+                    <div class="form-rsvp">
+                      <form action="" method="post">
+                        <input class="rsvp" type="text" value="" placeholder="First Name">
+                        <input class="rsvp" type="text" value="" placeholder="Last Name">
+                        <input class="rsvp" type="text" value="" placeholder="Email Adress">
+                        <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                        <div>
+                           <label class="terms">Terms and Conditions</label>
+                        </div>
+                        <div class="submit">
+                             <input type="submit" value="Submit">
+                        </div>
+                      </form>
+                            
                       </div>
-                      <div>
-                         <input type="submit" value="Submit">
-                      </div>
-                    </form>
                     </div>
-                    </div>
-                    </div>
-                  </div>
+              </div>
+           </div>
+                         
+                      
+                    
           </section>
           <!--END RSVP-->
               
           <!--FOOTER-->
-          <div>
-            www. Radiostacja Mir.pl &nbsp; |&nbsp; &copy; 2021
+          <div id="footer">
+            www.Radiostacja Mir.pl &nbsp; |&nbsp; &copy; 2022
           </div>
           <!--END FOOTER-->
           </body>
